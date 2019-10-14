@@ -1,0 +1,14 @@
+{
+  "name": "docker-laravel6-vue-cli",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "docker-compose build",
+    "up": "docker-compose up -d",
+    "down": "docker-compose down",
+    "ssh bash": "docker-compose run composer bash",
+    "docker rm all": "docker system prune -a"
+  },
+  "dependencies": {
+
+  }
+}
